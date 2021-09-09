@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "parametric equation", "parametric equation\parametric equation.vcxproj", "{714F8494-2167-4762-B217-B420B83D3F15}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LinearSystems", "LinearSystems\LinearSystems.vdproj", "{B2B7563F-E482-475D-98D9-879E0E8A3629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,11 @@ Global
 		{714F8494-2167-4762-B217-B420B83D3F15}.Release|x64.Build.0 = Release|x64
 		{714F8494-2167-4762-B217-B420B83D3F15}.Release|x86.ActiveCfg = Release|Win32
 		{714F8494-2167-4762-B217-B420B83D3F15}.Release|x86.Build.0 = Release|Win32
+		{B2B7563F-E482-475D-98D9-879E0E8A3629}.Debug|x64.ActiveCfg = Debug
+		{B2B7563F-E482-475D-98D9-879E0E8A3629}.Debug|x86.ActiveCfg = Debug
+		{B2B7563F-E482-475D-98D9-879E0E8A3629}.Debug|x86.Build.0 = Debug
+		{B2B7563F-E482-475D-98D9-879E0E8A3629}.Release|x64.ActiveCfg = Release
+		{B2B7563F-E482-475D-98D9-879E0E8A3629}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
