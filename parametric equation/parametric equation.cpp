@@ -108,24 +108,8 @@ int main()
 		{
 			x = Dx / D;
 			y = Dy / D;
-			// exei problhma bgazei -0 se kapoiew periptvseiw
-			if (x == -0 && y == -0)
-			{
-				cout << "The systeme has one single solution: (x,y)=(" << -x << "," << -y << ")" << endl << endl;
-			}
-			else if (x != -0 && y == -0)
-			{
-				cout << "The systeme has one single solution: (x,y)=(" << x << "," << -y << ")" << endl << endl;
-			}
-			else if (x == -0 && y != -0)
-			{
-				cout << "The systeme has one single solution: (x,y)=(" << -x << "," << y << ")" << endl << endl;
-			}
-			else {
-				cout << "The systeme has one single solution: (x,y)=(" << x << "," << y << ")" << endl << endl;
-				cout << "======================================================================" << endl << endl;
-
-			}
+			cout << "The systeme has one single solution: (x,y)=(" << x << "," << y << ")" << endl << endl;
+			cout << "======================================================================" << endl << endl;
 		}
 	}
 }
